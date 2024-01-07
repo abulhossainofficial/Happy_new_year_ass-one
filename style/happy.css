@@ -422,9 +422,10 @@ header {
   width: 1320px;
   height: 616px;
   margin: 100px auto;
-  background-image: url(../images/Vector1.png);
+  /* background-image: url(../images/Vector1.png);
   background-repeat: no-repeat;
-  object-fit: cover;
+  object-fit: cover; */
+  background-color: rgba(255, 0, 0, 0.05);
 }
 .subnewsletter {
   text-align: center;
@@ -469,10 +470,10 @@ header {
   -o-border-radius: 50px 0px 0px 50px;
 }
 
-.sub-button button {
+.sub-button > button {
   width: 210px;
-  height: 75px;
-  margin-left: -10px;
+  height: 72px;
+  margin-left: -5px;
   border: none;
   border-radius: 0px 50px 50px 0px;
   background: #f00;
