@@ -484,3 +484,64 @@ header {
   font-weight: 600;
 }
 /* style for footer section  */
+footer {
+  width: 1600px;
+  height: 609px;
+  margin: 100px auto;
+  background: #070211;
+}
+.footer-top {
+  height: 216px;
+  display: flex;
+  justify-content: space-between;
+}
+
+hr {
+  opacity: 0.1;
+}
+
+.footer-top1 {
+  margin: 85px 100px 45px 105px;
+}
+
+.footer-top1 address {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.footer-top2 {
+  margin: 85px 280px 45px 55px;
+}
+
+.footer-top2 p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+}
+.footer-middel {
+  text-align: center;
+  margin: 50px auto;
+}
+
+.footer-middel > a {
+  margin-right: 25px;
+}
+
+.footer-foot {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-foot p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  margin: 75px 80px 100px 105px;
+}
